@@ -9,7 +9,7 @@ string remove_word(string s, int i)
 
     string x = "apple";
     char m = s[i];
-    size_t a = s.find(x); //here this find() --> will help to return the starting index of finding element(if exist) otherwise
+    size_t a = s.find(x); //here this find() --> will help to return the starting index of element(if exist) otherwise
                           // return something npos value(1123235414)
     if(a !=string ::npos ) //string :: npos --> check whether the find() fail or not
        {
